@@ -5,3 +5,4 @@ function fib($n = 10) {
   return fib($n - 1) + fib($n - 2);
 }
 
+fib($argv[1]);
