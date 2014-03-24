@@ -1,0 +1,611 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"momen",
+				"momentjs"
+			],
+			[
+				"dir",
+				"dir_template"
+			],
+			[
+				"st",
+				"stmt_if"
+			],
+			[
+				"help",
+				"help_string"
+			],
+			[
+				"ini",
+				"initalizes"
+			],
+			[
+				"line",
+				"lineTests"
+			],
+			[
+				"gener",
+				"generatePermiter"
+			],
+			[
+				"tra",
+				"travelByTrain"
+			],
+			[
+				"trave",
+				"travelByPlane"
+			],
+			[
+				"trae",
+				"travelByCar"
+			],
+			[
+				"shanta",
+				"shantatwo"
+			],
+			[
+				"url",
+				"isurl(@urlOrAnything)"
+			],
+			[
+				"thing",
+				"thing_id"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"seti",
+				"setlist_owner"
+			],
+			[
+				"book",
+				"book_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "hack.sh",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "php.sh",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"projec",
+				"Project: Add Folder"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Projects/fib/hack.sh",
+		"/C/Projects/fib/php.sh",
+		"/C/Users/tiger/Dropbox/Zighra/Marketing/pitch.txt",
+		"/C/Projects/fryengine/.gitignore",
+		"/C/libs/SDL2-2.0.2/build/cmake_install.cmake",
+		"/C/libs/SDL2-2.0.2/cmake/macros.cmake",
+		"/C/libs/SDL2-2.0.2/cmake/sdlchecks.cmake",
+		"/C/libs/SDL2-2.0.2/sdl2-config.in",
+		"/C/Program Files/Microsoft SDKs/Windows/v7.1/Samples/winui/msaa/readme.txt",
+		"/C/Program Files/Microsoft SDKs/Windows/v7.1/Include/dxgi.h",
+		"/C/Program Files/Microsoft SDKs/Windows/v7.1/Include/gl/GL.h",
+		"/C/Projects/fryengine/CMakeLists.txt",
+		"/C/libs/freetype-2.5.3/CMakeLists.txt",
+		"/C/libs/sinbad-ogre-adcd8d336587/CMakeLists.txt",
+		"/C/libs/sinbad-ogre-adcd8d336587/BuildingOgre.txt",
+		"/C/libs/sinbad-ogre-adcd8d336587/SDK/Win32/readme.txt",
+		"/C/libs/ois-v1-3/src/SDL/SDLInputManager.cpp",
+		"/C/libs/sinbad-ogre-adcd8d336587/CMake/CMakeLists.txt",
+		"/C/libs/SDL2-2.0.2/CMakeLists.txt",
+		"/C/Projects/fryengine/src/CMakeLists.txt",
+		"/C/Projects/fryengine/README",
+		"/C/Projects/fryengine/README.md",
+		"/C/Projects/fryengine/LICENSE",
+		"/C/Projects/fryengine/build/.folder",
+		"/C/libs/SDL2-2.0.2/include/SDL_egl.h",
+		"/C/libs/SDL2-2.0.2/README-windows.txt",
+		"/C/libs/SDL2-2.0.2/include/SDL_config_pandora.h",
+		"/C/Users/tiger/Downloads/freetype-2.5.3/freetype-2.5.3/Jamfile",
+		"/C/libs/SDL2-2.0.2/README-SDL.txt",
+		"/C/libs/SDL2-2.0.2/README-linux.txt",
+		"/C/libs/SDL2-2.0.2/README-psp.txt",
+		"/C/Users/tiger/Dropbox/Academia/Carleton University/Year 3/Semester 2/COMP 3000/Assignments/4/Makefile",
+		"/C/Users/tiger/Dropbox/Academia/Carleton University/Year 3/Semester 2/COMP 3000/Assignments/4/part1.c",
+		"/C/Users/tiger/Dropbox/Academia/Carleton University/Year 3/Semester 2/COMP 3000/Assignments/4/userInput.txt",
+		"/C/Users/tiger/Downloads/install.sh",
+		"/C/Projects/idler/server/src/index.coffee",
+		"/C/Users/tiger/Dropbox/Academia/Carleton University/Year 3/Semester 2/COMP 3000/Assignments/4/part2.c",
+		"/C/Users/tiger/Downloads/semtest.c",
+		"/C/Users/tiger/Downloads/part2.c",
+		"/C/Program Files (x86)/Grinding Gear Games/Path of Exile/logs/Client.txt",
+		"/C/Projects/idler/.gitignore",
+		"/C/Projects/idler/Gruntfile.js",
+		"/C/Projects/idler/server/src/index.js",
+		"/C/Projects/idler/server/index.js",
+		"/C/Projects/idler/README",
+		"/C/Projects/idler/.bowerrc",
+		"/C/Projects/endlesspath/src/less/main.less",
+		"/C/Projects/endlesspath/src/html/index.html",
+		"/C/Projects/endlesspath/README",
+		"/C/Projects/sched/api/server.py",
+		"/C/Projects/sched/api/db.py",
+		"/C/Projects/sched/api/test",
+		"/C/Projects/sched/api/lib/landerdb/landerdb.py",
+		"/C/Projects/sched/.git/HEAD",
+		"/C/Projects/sched/.git/refs/remotes/origin/master",
+		"/C/Projects/sched/.git/config",
+		"/C/Projects/sched/.gitmodules",
+		"/C/Projects/sched/api/lib/landerdb/test",
+		"/C/Projects/sched/src/html/index.html",
+		"/C/Projects/sched/src/less/main.less",
+		"/C/Projects/sched/dist/index.html",
+		"/C/Projects/sched/conf/nginx",
+		"/C/Projects/cmdl/README.md",
+		"/C/Projects/sched/Gruntfile.js",
+		"/C/Projects/sched/src/html/templates/time.html",
+		"/C/Projects/sched/src/coffee/models/user.coffee",
+		"/C/Users/tiger/Downloads/hours-avail",
+		"/C/Projects/sched/dist/api/hours-avail",
+		"/C/Projects/sched/src/html/templates/time-table.html",
+		"/C/Projects/sched/dist/bower_components/skeleton/stylesheets/layout.css",
+		"/C/Projects/sched/bower.json",
+		"/C/Projects/sched/README",
+		"/C/Projects/sched/package.json",
+		"/C/Projects/web-init/README",
+		"/C/Projects/web-init/package.json",
+		"/C/Projects/web-init/Gruntfile.js",
+		"/C/Projects/web-init/bower.json",
+		"/C/Projects/web-init/.gitignore",
+		"/C/Projects/web-init/.bowerrc",
+		"/C/Projects/scheduler/dist/index.html",
+		"/C/Projects/scheduler/src/coffee/main.coffee",
+		"/C/Projects/scheduler/src/html/index.html",
+		"/C/Projects/scheduler/src/less/main.less",
+		"/C/Projects/scheduler/Gruntfile.js",
+		"/C/Projects/scheduler/bower.json",
+		"/C/Projects/scheduler/package.json",
+		"/C/Projects/scheduler/.gitignore",
+		"/C/Projects/scheduler/src/coffee/models/user.coffee",
+		"/C/Projects/scheduler/README",
+		"/C/Projects/scheduler/.bowerrc",
+		"/C/Users/tiger/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/C/Users/tiger/Downloads/A2/myfork.c",
+		"/C/Users/tiger/Dropbox/Academia/Carleton University/Year 1/Semester 1/COMP 1405/Tests/1 Solutions.txt",
+		"/C/Users/tiger/Downloads/A2/mymore.c",
+		"/C/Users/tiger/Downloads/A2/myfork2.c",
+		"/C/Users/tiger/Downloads/A2/part1_3.txt",
+		"/C/Users/tiger/Downloads/A2/README.txt",
+		"/C/Users/tiger/Downloads/A2/part2.txt",
+		"/C/Users/tiger/Downloads/A2/test.txt",
+		"/C/Users/tiger/Downloads/A2/part3.txt",
+		"/C/Users/tiger/Downloads/A2/part1_1.txt",
+		"/C/Users/tiger/Downloads/A2/part1_2.txt",
+		"/C/Projects/playlist/Gruntfile.js",
+		"/C/Projects/playlist/package.json",
+		"/C/Users/tiger/Downloads/A2/myfork.cpp",
+		"/C/Users/tiger/Downloads/A2/A2P1_1.cpp~",
+		"/C/Users/tiger/Downloads/A2/A2/myfork",
+		"/C/Users/tiger/Downloads/A2/A2/A2P1_1.cpp~",
+		"/C/Users/tiger/Desktop/dustforce.CT",
+		"/C/Projects/playlist/website-src/less/main.less",
+		"/C/Projects/playlist/website-src/scripts/models/user.coffee",
+		"/C/Projects/playlist/website-src/main.coffee",
+		"/C/Projects/playlist/README",
+		"/C/Projects/playlist/website-src/models/user.coffee",
+		"/C/Projects/playlist/.bowerrc",
+		"/C/Projects/playlist/.gitignore",
+		"/C/Users/tiger/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/tiger/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Projects/playlist/bower.json",
+		"/C/Projects/playlist/test/index.html",
+		"/C/Projects/playlist/.jshintrc",
+		"/C/Projects/playlist/.yo-rc.json",
+		"/C/Projects/playlist/app/index.html",
+		"/C/Users/tiger/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Projects/playlist/.editorconfig",
+		"/C/Users/tiger/Documents/My Games/Chivalry Medieval Warfare/UDKGame/Config/UDKEditorUserSettings.ini",
+		"/C/Projects/brutal/setup.py",
+		"/C/Projects/gross/templates/footer.html"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open files>",
+			", ",
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"24",
+			"17",
+			" |",
+			"| ",
+			"install",
+			"build",
+			"ARCH_64",
+			"ARCH_644",
+			"ARCH",
+			"64",
+			"DIRECTX",
+			"directx",
+			"FDirectX",
+			"DDIRECTX",
+			"CMAKE_INSTALL_PREFIX",
+			"install_pre",
+			"find_library",
+			"find_",
+			"add_lib",
+			"SDL2_SOURCE_DIR",
+			"src/",
+			"line",
+			"//",
+			"testcase",
+			"word_buffer",
+			"word_buffer_idx",
+			"str_idx",
+			"\\t",
+			"same",
+			"num_words",
+			"sorted_words",
+			"changeThis",
+			"spaceCount",
+			"p",
+			"tempthingy",
+			" (",
+			"WORD_LEN",
+			"MAX_WORD_LENGTH",
+			"MAX_LINE_LENGTH",
+			"tid",
+			"doSomeThing",
+			"rev",
+			"compare",
+			"arg2",
+			"arg1",
+			"userInput",
+			"userinput",
+			"userInput",
+			"sem2",
+			"sem1",
+			"client",
+			"(",
+			"^'",
+			"$'",
+			"\\n",
+			"(\\d+)-(\\d+)-(\\d+)",
+			" |",
+			"| ",
+			"07-",
+			"06-",
+			"05-",
+			"03-0",
+			"04",
+			"03-0",
+			"man",
+			"Man",
+			"man",
+			",",
+			"\\n",
+			"String Quartet",
+			"h3",
+			"dir",
+			"filename",
+			"append",
+			"self.data",
+			"val",
+			"collection",
+			"table",
+			"name",
+			"stale = False",
+			"json.dump",
+			"json.dumps",
+			"15",
+			"8",
+			"window.",
+			"date",
+			"lodash",
+			"app",
+			"dist",
+			"app",
+			"template",
+			"files_templates",
+			"template_files",
+			"totalDistance",
+			"avg. distance",
+			"_i",
+			"radnum",
+			"perimeterTests",
+			"tostring",
+			"interations",
+			"i",
+			"getTotalMove",
+			"movement",
+			"fn =",
+			"dest",
+			"source",
+			"%",
+			"towerOfHanoi",
+			"next",
+			"au",
+			"difference",
+			"last",
+			"parent(",
+			"^46",
+			"^8, ",
+			"^21, ",
+			"^18, ",
+			"^10, ",
+			"^4, ",
+			"^6, ",
+			"^2, ",
+			"2, ",
+			"4, ",
+			");",
+			", (\\d+)",
+			"insert into service_subscribers values (",
+			"\\n",
+			"trask"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"  ",
+			"(",
+			"),\\n",
+			"'$1-$2-$3', ",
+			"'$1', ",
+			", ",
+			"",
+			"$1",
+			"",
+			", ",
+			"\\n",
+			"if (",
+			"; $1",
+			"; ",
+			"100856990",
+			"Bheesham Persaud",
+			";",
+			"; ",
+			"\\n",
+			"",
+			"Persaud",
+			"; Student Number: 100856990",
+			"; Name: Bheesham Persaud",
+			"",
+			"**:\\t\\t",
+			"**$1**",
+			"asd"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "hack.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "php.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "fib.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
