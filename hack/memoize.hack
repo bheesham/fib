@@ -25,4 +25,4 @@ $fib = new Memoize($a = function($n) use (&$a) {
   return $a($n - 1) + $a($n - 2);
 });
 
-print $fib->exec($argv[1]);
+$fib->exec($argv[1]);
