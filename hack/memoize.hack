@@ -10,7 +10,7 @@ class Memoize {
 
   public function exec() {
     $args = func_get_args();
-    $id = md5(serialize($args));
+    $id = serialize($args);
     
     if (!array_key_exists($id, $this->history)) {
       $this->history[$id] = call_user_func_array($this->func, $args);
