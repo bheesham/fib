@@ -72,19 +72,56 @@
 	"buffers":
 	[
 		{
-			"file": "hack.sh",
+			"file": "php/fib.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 113,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "php.sh",
+			"file": "php/array.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 81,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "HHVM\n        --------------\n\n        php/fib.php (php):\n\nreal    1m10.583s\nuser    1m10.412s\nsys     0m0.060s\n        --------------\n\n        php/array.php (php):\n\nreal    0m0.733s\nuser    0m0.612s\nsys     0m0.116s\n\n\nPHP\n        --------------\n\n        php/fib.php (php):\n\nreal    1m30.877s\nuser    1m30.824s\nsys     0m0.016s\n        --------------\n\n        php/array.php (php):\n\nreal    0m1.218s\nuser    0m0.956s\nsys     0m0.244s\n\n\nHHVM-Hack\n        --------------\n\n        hack/fib.hack:\n\nreal    1m6.195s\nuser    1m6.112s\nsys     0m0.060s\n        --------------\n\n        hack/array.hack:\n\nreal    0m0.680s\nuser    0m0.556s\nsys     0m0.120s\n",
+			"settings":
+			{
+				"buffer_size": 643,
+				"line_ending": "Unix",
+				"name": "HHVM"
+			}
+		},
+		{
+			"contents": "<?hh\n\nfunction fib(int $n = 10) : int {\n  if ($n < 2) { return $n; }\n  return fib($n - 1) + fib($n - 2);\n}\n\n",
+			"file": "hack/fib.hack",
+			"file_size": 106,
+			"file_write_time": 130401601676836312,
+			"settings":
+			{
+				"buffer_size": 108,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "hack/array.hack",
+			"settings":
+			{
+				"buffer_size": 97,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Baccano\nK (anime)\nHamatora\nPsychopass",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Unix",
+				"name": "Baccano"
 			}
 		}
 	],
@@ -293,6 +330,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"$a",
 			"24",
 			"17",
 			" |",
@@ -419,8 +457,7 @@
 			");",
 			", (\\d+)",
 			"insert into service_subscribers values (",
-			"\\n",
-			"trask"
+			"\\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -465,29 +502,85 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "hack.sh",
+					"file": "php/fib.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								113,
+								113
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "php/array.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 81,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 643,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								308,
+								308
+							]
+						],
+						"settings":
+						{
+							"auto_name": "HHVM",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -495,27 +588,89 @@
 					},
 					"stack_index": 1,
 					"type": "text"
-				},
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
 				{
-					"buffer": 1,
-					"file": "php.sh",
+					"buffer": 3,
+					"file": "hack/fib.hack",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 108,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								108,
+								108
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "hack/array.hack",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 97,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								27
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Baccano",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -544,11 +699,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
