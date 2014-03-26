@@ -7,3 +7,7 @@ echo -e '\t--------------\n'
 
 echo -e '\tphp/array.php (php):'
 time hhvm php/array.php 1999999
+echo -e '\t--------------\n'
+
+echo -e '\tphp/memoize.php (php):'
+time hhvm php/memoize.php 40
