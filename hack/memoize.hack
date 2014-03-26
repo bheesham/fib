@@ -20,9 +20,9 @@ class Memoize {
   }
 }
 
-$fib = new Memoize($a = function($n) use (&$a) {
+$fib = new Memoize($a = function(int $n): int use (&$a) {
   if ($n < 2) { return $n; }
   return $a($n - 1) + $a($n - 2);
 });
 
-$fib->exec($argv[1]);
+$fib->exec(intval($argv[1]));
